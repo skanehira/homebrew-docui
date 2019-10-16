@@ -2,16 +2,16 @@
 class Docui < Formula
   desc "TUI Client for Docker"
   homepage "https://github.com/skanehira/docui"
-  version "2.0.3"
+  version "2.0.4"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/skanehira/docui/releases/download/2.0.3/docui_2.0.3_Darwin_x86_64.tar.gz"
-    sha256 "7196de03775cd4806c4853ed3f54ccb60556593367ed970d8c60965f076b605a"
+    url "https://github.com/skanehira/docui/releases/download/2.0.4/docui_2.0.4_Darwin_x86_64.tar.gz"
+    sha256 "56be2b838f1a3e169c05f7cb7a5a425fd9eba5fb57704fb1d43a55954701b593"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/skanehira/docui/releases/download/2.0.3/docui_2.0.3_Linux_x86_64.tar.gz"
-      sha256 "68b087b720ec24d5de893b1555d0e319bdbec922ccc92caae0ea815655bcf22e"
+      url "https://github.com/skanehira/docui/releases/download/2.0.4/docui_2.0.4_Linux_x86_64.tar.gz"
+      sha256 "8f87769b99e63f58fb77561fa9eb0f1913214aef3f1f9955e57df43bbfc3bbfa"
     end
   end
   
